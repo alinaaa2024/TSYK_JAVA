@@ -6,9 +6,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // operations with numbers
-        System.out.println("Введите 1 целых числа в консоль");
+        System.out.println("Введите первое число:");
         int firstNumber = scanner.nextInt();
-        System.out.println("Введите 2 целых числа в консоль");
+        System.out.println("Введите второе числo:");
         int secondNumber = scanner.nextInt();
 
         if (firstNumber < secondNumber) {
@@ -40,9 +40,9 @@ public class Main {
 
         // comparison strings
         scanner.nextLine();
-        System.out.println("Введите 1 строку в консоль");
+        System.out.println("Введите первую строку:");
         String firstString = scanner.nextLine();
-        System.out.println("Введите 2 строку в консоль");
+        System.out.println("Введите вторую строку:");
         String secondString = scanner.nextLine();
         scanner.close();
 
