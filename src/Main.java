@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // operations with numbers
+        // Задание 1
         System.out.println("Введите первое число:");
         int firstNumber = scanner.nextInt();
         System.out.println("Введите второе числo:");
@@ -31,14 +31,14 @@ public class Main {
         System.out.println("Умножение " + multiply);
         System.out.println("Деление " + division);
 
-        // search even numbers
+        // Задание 2
         int[] arrayInteger = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int[] arrayEvenNumbers = Arrays.stream(arrayInteger)
                 .filter(number -> number % 2 == 0).toArray();
 
         System.out.println("Массив четный: " + Arrays.toString(arrayEvenNumbers));
 
-        // comparison strings
+        // Задание 3
         scanner.nextLine();
         System.out.println("Введите первую строку:");
         String firstString = scanner.nextLine();
