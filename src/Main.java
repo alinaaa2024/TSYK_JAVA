@@ -24,13 +24,19 @@ public class Main {
         int sum = (firstNumber + secondNumber);
         int difference = (firstNumber - secondNumber);
         int multiply = (firstNumber * secondNumber);
-        int division = (firstNumber / secondNumber);
 
         System.out.println("Сумма " + sum);
         System.out.println("Разница " + difference);
         System.out.println("Умножение " + multiply);
-        System.out.println("Деление " + division);
+
+        if (secondNumber == 0) {
+            System.out.println("Делить на 0 нельзя");
+        } else {
+            int division = (firstNumber / secondNumber);
+            System.out.println("Деление " + division);
+        }
     }
+
     // Задание 2
     public static void task_2() {
         int[] arrayInteger = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
@@ -39,6 +45,7 @@ public class Main {
 
         System.out.println("Массив четный: " + Arrays.toString(arrayEvenNumbers));
     }
+
     // Задание 3
     public static void task_3() {
         Scanner scanner = new Scanner(System.in);
@@ -58,6 +65,7 @@ public class Main {
         }
         System.out.println(resultMessage);
     }
+
     public static void main(String[] args) {
         task_1();
         task_2();
