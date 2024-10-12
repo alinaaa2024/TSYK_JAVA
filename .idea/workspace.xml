@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94eaea18-230c-441a-a333-ead97ebb19c6" name="Changes" comment="edit print text">
+    <list default="true" id="94eaea18-230c-441a-a333-ead97ebb19c6" name="Changes" comment="split to methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -84,13 +84,22 @@
       <option name="project" value="LOCAL" />
       <updated>1722642641584</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="split to methods">
+      <option name="closed" value="true" />
+      <created>1728740042245</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728740042245</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add tests" />
     <MESSAGE value="edit print text" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit print text" />
+    <MESSAGE value="split to methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="split to methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
